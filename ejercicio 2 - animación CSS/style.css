@@ -19,9 +19,9 @@ body{
     position: absolute;
     bottom: 70px;
     right: 200px;
-    animation-name: solMover;
-    animation-duration: 5s;
-    animation-timing-function: linear;
+    /*animation-name: solMover;
+    animation-duration: 10s;
+    animation-timing-function: linear;*/
     z-index: 1;
 }
 
@@ -39,13 +39,106 @@ body{
 
 .montaña {
  position: absolute;
- width: 700px ;
- height: 400px;
- bottom: 0px;
+ width: 780px ;
+ height: 480px;
  left: 0px;
  z-index: 2;
- 
-
 }
+
+.uno {
+position: absolute;
+top: 0.5px;
+left: 10px;
+right: auto;
+height: 150px;
+width:100px;
+/*animation-name: nubeuno;
+animation-duration: 10s;
+animation-timing-function: linear;*/
+}
+
+@keyframes nubeuno {
+    0%{
+        left:10px ;
+    }50%{
+        left: 100px;
+    }100%{
+        left: 0px;
+        
+    }
+}
+
+.dos {
+position: absolute;
+top: -40px;
+left: 650px;
+right: auto;
+height: 530px;
+width:200px;
+/*animation-name: nubedos;
+animation-duration: 10s;
+animation-timing-function: linear;*/
+}
+
+@keyframes nubedos {
+    0%{
+        left:10px ;
+    }50%{
+        left: 150px;
+    }100%{
+        left: 0px;
+        
+    }
+}
+
+.tres {
+position: absolute;
+top: -100px;
+left: 200px;
+right: auto;
+width:150px;
+height: 500px;
+z-index: 3;
+/*animation-name: nubetres;
+animation-duration: 10s;
+animation-timing-function: linear;*/
+}
+
+@keyframes nubetres {
+    0%{
+        left:10px ;
+    }50%{
+        left: 400px;
+    }100%{
+        left: 0px;
+        
+    }
+}
+
+.cuatro {
+position: absolute;
+top: 0.3px;
+left: 20px;
+right: auto;
+height: 100px;
+width:60px;
+/*animation-name: nubecuatro;
+animation-duration: 10s;
+animation-timing-function: linear;*/
+}
+
+@keyframes nubecuatro {
+    0%{
+        left:10px ;
+    }50%{
+        left: 700px;
+    }100%{
+        left: 0px;
+        
+    }
+}
+
+
+
   
 
