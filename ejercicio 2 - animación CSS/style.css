@@ -3,36 +3,47 @@ body{
 }
 .container{
     margin: 200px auto;
-    width: 700px ;
+    width: 780px ;
     height: 400px;
     background: white;
     overflow: hidden;
     position: relative;
     
 }
-
+.guia {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 190px;
+    z-index: 4;
+    cursor: pointer;
+}
 .sol{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background: rgb(255, 208, 0);
     position: absolute;
-    bottom: 70px;
-    right: 200px;
-    /*animation-name: solMover;
+    bottom: 40px;
+    right: 190px;
+   /*  animation-name: moversol;
     animation-duration: 10s;
-    animation-timing-function: linear;*/
+    animation-timing-function: linear; */
     z-index: 1;
+   
 }
 
-@keyframes solMover {
+@keyframes moversol {
     0%{
         bottom: 70px;
     }50%{
         bottom: 450px;
     }100%{
         bottom: 70px;
-        background: rgb(255, 102, 0);
+        background-color: transparent;
     }
 
 }
@@ -48,13 +59,13 @@ body{
 .uno {
 position: absolute;
 top: 0.5px;
-left: 10px;
+left: 600px;
 right: auto;
 height: 150px;
 width:100px;
-/*animation-name: nubeuno;
+/* animation-name: nubeuno;
 animation-duration: 10s;
-animation-timing-function: linear;*/
+animation-timing-function: linear; */
 }
 
 @keyframes nubeuno {
@@ -71,13 +82,13 @@ animation-timing-function: linear;*/
 .dos {
 position: absolute;
 top: -40px;
-left: 650px;
+left: 200px;
 right: auto;
 height: 530px;
-width:200px;
-/*animation-name: nubedos;
+width:120px;
+/* animation-name: nubedos;
 animation-duration: 10s;
-animation-timing-function: linear;*/
+animation-timing-function: linear; */
 }
 
 @keyframes nubedos {
@@ -94,14 +105,14 @@ animation-timing-function: linear;*/
 .tres {
 position: absolute;
 top: -100px;
-left: 200px;
+left: 80px;
 right: auto;
 width:150px;
 height: 500px;
 z-index: 3;
-/*animation-name: nubetres;
+/* animation-name: nubetres;
 animation-duration: 10s;
-animation-timing-function: linear;*/
+animation-timing-function: linear; */
 }
 
 @keyframes nubetres {
@@ -122,9 +133,9 @@ left: 20px;
 right: auto;
 height: 100px;
 width:60px;
-/*animation-name: nubecuatro;
+/* animation-name: nubecuatro;
 animation-duration: 10s;
-animation-timing-function: linear;*/
+animation-timing-function: linear; */
 }
 
 @keyframes nubecuatro {
