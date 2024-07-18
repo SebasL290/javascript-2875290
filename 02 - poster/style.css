@@ -1,0 +1,111 @@
+.container {
+    width: 1252px ;
+    height: 790px;
+    background-size: cover;
+    background-image: url(img/fondo.png);
+    overflow: hidden;
+    position: relative;
+    
+}
+.titulo {
+    position: absolute;
+    width: 600px ;
+    height: 375px;
+    right: 550px;
+    top: 170px;
+    left: 330px;
+    z-index: 1;
+    /* animation-name: movertitulo; */
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes movertitulo {
+    0%{
+        top:900px ;
+    }50%{
+        top: 100px;
+    }100%{
+        top: 170px;
+    }
+}
+
+
+.uno {
+    position: absolute;
+    width: 250px ;
+    height: 200px;
+    right: 1100px;
+    top: 130px;
+    left: 90px;
+   /*  animation-name: movergato; */
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    z-index: 2;
+}
+@keyframes movergato {
+    0%{
+        left:900px ;
+    }50%{
+        left: 100px;
+    }100%{
+        left: 100px;
+    }
+}
+
+
+.olla {
+    position: absolute;
+    width: 250px ;
+    height: 290px;
+    top: 400px;
+    left: 100px;
+    /* animation-name: rotar; */
+    animation-duration: 2s;  
+    animation-timing-function: linear;
+    
+}
+@keyframes rotar {
+0% {
+transform: rotate(2deg);}
+50% {
+transform: rotate(80deg);}
+100% {
+    transform: rotate(2deg);}
+    }
+
+
+.pergamino {
+    position: absolute;
+    width: 350px ;
+    height: 190px;
+    top: 420px;
+    left: 880px;
+    z-index: 3;
+  /*   animation-name: rotarp;  */
+    animation-duration: 2s;
+    animation-timing-function: linear;
+
+}
+@keyframes rotarp {
+0% {
+transform: rotate(2deg);}
+50% {
+transform: rotate(80deg);}
+100% {
+transform: rotate(2deg);}
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #ffffff;
+    color: #dfc988;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+    align-items: center;
+}
+
+
