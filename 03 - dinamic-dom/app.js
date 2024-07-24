@@ -40,3 +40,7 @@ btnCrear.addEventListener('click',crear)
 btnBorrar.addEventListener('click',borrarPantalla)
 main.addEventListener('click',borrarElemento)   
 main.addEventListener('click',tacharelemento)   
+
+
+
+

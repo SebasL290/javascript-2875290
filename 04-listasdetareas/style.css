@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+#crear {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  linear-gradient(to right, #607397, #243B55);
+    border: none;
+    color: white;   
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+input[type="texto"] {
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+li {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+li input[type="Tu tarea"] {
+    margin-right: 10px;
+}
+
+#Limpiar {
+    background: #214e85;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+#Limpiar:hover {
+    background-color: #243B55;
+
+}
+button.delete {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lista {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    width: 93%;
+    background: rgba(255, 255, 255, 0.1);
+  
+    border-radius: 5px;
+    position: relative;
+
+}
+.tach {
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  linear-gradient(to right, #607397, #243B55);
+    border: none;
+    color: white;   
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    right: 0;
+}
+.quit {
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  linear-gradient(to right, #607397, #243B55);
+    border: none;
+    color: white;   
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 0;
+}
