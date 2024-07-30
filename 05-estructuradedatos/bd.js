@@ -16,7 +16,7 @@ let Musica = [
         genero: 'merengue',
         año: 2024,
         artista: 'KAROL G',
-        link: ''
+        link: 'https://youtu.be/MgsdDfdGdHc?si=9zJ4dsoE-m9CALjP'
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2016,
         artista: 'Piso 21',
-        link: ''
+        link: 'https://youtu.be/F3uzNaw-uhE?si=z0_rWPggdaaoKejT'
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2024,
         artista: 'Feid',
-        link: ''
+        link: 'https://youtu.be/4F0cCKFac04?si=BIA6UVUrq2BOKMPS'
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2015,
         artista: 'Yandel',
-        link: ''
+        link: 'https://youtu.be/F877bV0Ai3E?si=5-ZhZ__uxfgMVmZ7'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ let Musica = [
         genero: 'Salsa',
         año: 2011,
         artista: 'Mauro Castillo',
-        link: ''
+        link: 'https://youtu.be/htJ5g4aizaw?si=T4OVi5AFJTXfrRMp'
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ let Musica = [
         genero: 'Rock',
         año: 2015,
         artista: 'AKASH',
-        link: ''
+        link: 'https://youtu.be/VRxF8H-x_J0?si=fYTWoUbIVMyIKn3T'
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ let Musica = [
         genero: 'Rock',
         año: 2019,
         artista: 'Rata Blanca',
-        link: ''
+        link: 'https://youtu.be/UIl27cgpKaw?si=SoyMHaxT9tzDT9PQ'
     },
     {
         id: 9,
@@ -79,7 +79,7 @@ let Musica = [
         genero: 'Salsa',
         año: 2019,
         artista: 'Willie Colón',
-        link: ''
+        link: 'https://youtu.be/MwCeuPxZo7s?si=Osh9jxMiHRz3CZ9O'
     },
     {
         id: 10,
@@ -88,7 +88,7 @@ let Musica = [
         genero: 'Valada',
         año: 1980,
         artista: 'Lucio Battisti',
-        link: ''
+        link: 'https://youtu.be/EGDaAv8Lg8Q?si=DIpw5djhKy2fmn6r'
     },
     {
         id: 11,
@@ -97,7 +97,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2021,
         artista: '',
-        link: ''
+        link: 'https://youtu.be/joHCGlzxi8U?si=SaVJuAGHFQdPQYzQ'
     },
     {
         id: 12,
@@ -106,7 +106,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2020,
         artista: 'Rafa Pavon',
-        link: ''
+        link: 'https://youtu.be/EOmJVYjMsKU?si=blKbUK7WGvAXP5Tp'
     },
     {
         id: 13,
@@ -115,7 +115,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2016,
         artista: 'Danny Ocean',
-        link: ''
+        link: 'https://youtu.be/aDCcLQto5BM?si=F5hblVAmpae0RwW3'
     },
     {
         id: 14,
@@ -124,7 +124,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2017,
         artista: 'Wolfine',
-        link: ''
+        link: 'https://youtu.be/jjuSfhYiup8?si=snXvvXBjaWBNelLa'
     },
     {
         id: 15,
@@ -133,7 +133,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2021,
         artista: 'BLESSD',
-        link: ''
+        link: 'https://youtu.be/j8jB560M4OU?si=ZtUCGMsU8l7H_c3M'
     },
     {
         id: 16,
@@ -142,7 +142,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2019,
         artista: 'sech',
-        link: ''
+        link: 'https://youtu.be/teT8-O9K2yM?si=t3plTr4BirHnei7k'
     },
     {
         id: 17,
@@ -151,7 +151,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2012,
         artista: 'La formula',
-        link: ''
+        link: 'https://youtu.be/3fwz3BYWIMc?si=1c6CsHodKKwe4MbS'
     },
     {
         id: 18,
@@ -160,7 +160,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2014,
         artista: 'J balvin',
-        link: ''
+        link: 'https://youtu.be/yUV9JwiQLog?si=J0q0YGwmuiMrn-vl'
     },
     {
         id: 19,
@@ -169,7 +169,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2012,
         artista: 'J alvarez',
-        link: ''
+        link: 'https://youtu.be/Sr2D5YwJKCk?si=yWkYWS5xV167D6Ej'
     },
     {
         id: 20,
@@ -178,7 +178,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2014,
         artista: 'Pitbull',
-        link: ''
+        link: 'https://youtu.be/zCB8Z_fO2Yo?si=QGKUuETWkydDNY8c'
     },
     {
         id: 21,
@@ -187,7 +187,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2014,
         artista: 'Farruko',
-        link: ''
+        link: 'https://youtu.be/MNmc_XJp5rI?si=JFSmPvLJi5xwP8Hj'
     },
     {
         id: 22,
@@ -196,7 +196,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2014,
         artista: 'Farruko',
-        link: ''
+        link: 'https://youtu.be/E-kkX2UuBcg?si=UJpLf_Cat56ya9DO'
     },
     {
         id: 23,
@@ -205,7 +205,7 @@ let Musica = [
         genero: 'dancehall',
         año: 2010,
         artista: 'Sean Paul',
-        link: ''
+        link: 'https://youtu.be/AQ4TW5Z8eu0?si=D-WSH0OIRZil7V2E'
     },
     {
         id: 24,
@@ -214,7 +214,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2017,
         artista: 'Don omar',
-        link: ''
+        link: 'https://youtu.be/L4tCfUbicfo?si=7nSa8b4c9uLzGalY'
     },
     {
         id: 25,
@@ -223,7 +223,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2020,
         artista: 'Dalex',
-        link: ''
+        link: 'https://youtu.be/nlXqp3FVrq8?si=rfkBEWta-ukmDwg3'
     },
     {
         id: 26,
@@ -232,7 +232,7 @@ let Musica = [
         genero: 'dancehall',
         año: 2019,
         artista: 'Eichem',
-        link: ''
+        link: 'https://youtu.be/ru7cc5jZeuU?si=APKXNN70FtqPoFyk'
     },
     {
         id: 27,
@@ -241,7 +241,7 @@ let Musica = [
         genero: 'Regueton',
         año: 2022,
         artista: 'Feid',
-        link: ''
+        link: 'https://youtu.be/-cdwUr6qSGo?si=C8uUb3TKqdpYk0Ex'
     },
     {
         id: 28,
@@ -250,7 +250,7 @@ let Musica = [
         genero: 'Urbano',
         año: 2022,
         artista: 'Bizarrap',
-        link: ''
+        link: 'https://youtu.be/wvz97-lNPH8?si=FeiW5ThyNnMQdLTL'
     },
     {
         id: 29,
@@ -259,7 +259,7 @@ let Musica = [
         genero: 'Bizarrap',
         año: 2021,
         artista: 'Bizarrap',
-        link: ''
+        link: 'https://youtu.be/0OkiUUU3Odw?si=aTeCx1_wjP-CLANh'
     },
     {
         id: 30,
@@ -268,7 +268,7 @@ let Musica = [
         genero: 'Urbano',
         año: 2022,
         artista: 'Bizarrap',
-        link: ''
+        link: 'https://youtu.be/A_g3lMcWVy0?si=wtStYhHqwpjw7ni0'
     },
    
 ]

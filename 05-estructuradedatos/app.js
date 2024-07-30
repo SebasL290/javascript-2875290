@@ -11,7 +11,7 @@ card.innerHTML =
             <p class="card-descripcion">${element.genero}</p>
             <p class="card-descripcion">${element.año}</p>
             <p class="card-descripcion">${element.artista}</p>
-            <a href="#" class="btn">Escuchar</a>
+            <a href="${element.link}" class="btn">Escuchar</a>
         </div>
     </div>
 `
