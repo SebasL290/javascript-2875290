@@ -1,0 +1,131 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body {
+        background-image: url(../assets/imagen\ galaxia.jpg);
+        background-size: cover;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .titulo{
+        margin: 50px auto 0 auto;
+        font-size: 4em; 
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif; 
+        text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+        border: 2px solid #e693ff; 
+        border-radius: 10px; 
+        padding: 20px; 
+        width: 400px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .titulo:hover {
+        transform: scale(1.1); 
+        cursor: pointer; 
+    }
+    
+    .card {
+        width: 340px;
+        height: 350px;
+        background:  #ededed;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        break-inside: avoid;
+    }
+    
+    
+    .card-imagen {
+        width: 340px;
+        height: 190px;
+        object-fit: cover;
+    }
+    
+    
+    .card-contenido {
+        padding: 10px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+    }
+    
+    
+    .card-titulo {
+        font-size: 1.2em;
+        margin: 0;
+        color: #000000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .card-descripcion {
+        font-size: 0.9em;
+        color: #000000;
+        margin: 2px 0;
+        flex: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .btn {
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 0.9em;
+        color: #ffffff;
+        background-color: #381681;
+        text-decoration: none;
+        border-radius: 4px;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btn:hover {
+        background-color: #323436;
+        transform: scale(1.1); 
+        cursor: pointer; 
+        
+    }   
+    
+    .container {
+        margin-top: 30px;
+        column-count: 5;
+        column-gap: 30px;
+        column-rule: #ffffff;
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .btncerrar {
+        right: 100%;
+        width: 100px;
+        height: 50px;
+        display: inline-block;
+        padding: 8px 8px;
+        font-size: 0.9em;
+        color: #ffffff;
+        background-color: #381681;
+        text-decoration: none;
+        border-radius: 4px;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    
+    .btncerrar:hover {
+        background-color: #323436;
+        transform: scale(1.1); 
+        cursor: pointer; 
+        
+    }   

@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-image: url(../assets/MOCKUP\ INICIO.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .formulario {
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgb(254, 254, 254);;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 320px;
+        text-align: center;
+    }
+    .titulo {
+        margin-bottom: 1rem;
+        color: #ffffff;
+    }
+    input[type="username"], input[type="password"] {
+        width: calc(100% - 2rem);
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border: 1px solid #b2dfdb;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+    button {
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #7e6595;
+        border: none;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    button:hover {
+        background-color: #a08fb0;
+    }
