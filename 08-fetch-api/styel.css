@@ -1,0 +1,82 @@
+body {
+    background-color: #2E2E2E;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+.container {
+    margin-top: 30px;
+    column-count: 5;
+    column-gap: 15px;
+    column-rule: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    background-color: #3C3F41;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 450px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card:hover{
+    transform: scale(1.1); 
+    cursor: pointer; 
+    
+}
+.section{
+    position: relative;
+    padding-left: 10px;
+    display:flex ;
+    flex-direction: row;
+}
+.circle {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    background-color: #FFFFFF;
+}
+
+.caracter-img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.estado {
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+
+.detalle {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.detalle strong {
+    color: #AAAAAA;
+}
