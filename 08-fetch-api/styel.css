@@ -7,7 +7,6 @@ body {
     margin-top: 30px;
     column-count: 5;
     column-gap: 15px;
-    column-rule: #ffffff;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +47,17 @@ body {
     width: 150px;
     height: auto;
     object-fit: cover;
+}
+.green {
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.gray{
+    background-color: #9e9e9e;
 }
 
 .info {
