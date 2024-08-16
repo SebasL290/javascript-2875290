@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="titulo">PLAYLIST <br>-DE PASEO-<br>⬇</div>
+ 
+ <form id="buscador">
+    <input type="text" id="textobusqueda">
+    <select  id="listaStatus">
+        <option value="All">Todos</option>
+        <option value="Regueton">regueton</option>
+        <option value="Rock">rock</option>
+        <option value="Salsa">salsa</option>
+        <option value="Merengue">merengue</option>
+        <option value="Dancehall">dancehall</option>
+        <option value="Valada">valada</option>
+    </select>
+    <button type="submit">Buscar</button>
+
+</form>
+
+<div class="container"></div>
+
+<script src="bd.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
