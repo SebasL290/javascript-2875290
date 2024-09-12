@@ -47,7 +47,7 @@ function registrarUser(e) {
     /* formulario.reset();  */
 }
 formulario.addEventListener('submit', registrarUser)
-let robo =JSON.parse(localStorage.getItem("user"))
+/* let robo =JSON.parse(localStorage.getItem("user")) */
 
 
 //inicio de sesion 
@@ -96,6 +96,21 @@ btncerrars.addEventListener('click', () => {
     saludo.innerHTML = '';
     btncerrars.style.display = 'none';
 });
+
+
+
+/* function colors(){
+    let colores =
+    { 
+        color1: "azul",
+        color2: "amarillo",
+        color3:"verde"
+}
+localStorage.setItem("colores", JSON.stringify(colores))
+}
+formulario.addEventListener('submit',colors)
+
+let info = JSON.parse(localStorage.getItem("colores")) */
 
 
 
