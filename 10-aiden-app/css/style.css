@@ -1,0 +1,634 @@
+body {
+    background-image: url(../sources//images/fonddo.png);
+    background: size 100%;;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+   
+}
+.logo {
+    position: absolute;
+    left: 49%;
+    margin-top: 15px;
+    height: 40px; 
+    z-index: 12;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    position: relative;
+}
+
+
+.iniciada button {
+    margin-left: 7px;
+    width: 150px;
+    height: 35px;
+    background: #482568;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+}
+
+.iniciada span{
+    margin-left: 10px;
+    width: 150px;
+    height: 35px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+}
+
+.wrapper{
+    margin: 150px auto 0;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition:transform .5s ease , height .2s ease;
+}
+
+.wrapper.active-popup{
+    transform: scale(1);
+}
+
+.wrapper.active{
+    height: 520px;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px; 
+}
+
+.wrapper .form-box.inicio{
+   transition: transform .18s ease;
+   transform: translateX(0);
+}
+
+.wrapper.active .form-box.inicio{
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.wrapper .form-box.registro {
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+}
+
+.wrapper.active .form-box.registro{
+    transition: transform .18s ease;
+    transform: translateX(0);
+ }
+
+
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #482568;
+    font-size:1.5em ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.form-box h1{
+    font-size: 2em;
+    color: #bca6d1;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom:2px solid #ffffff;
+    margin: 20px 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -2px; 
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    color: white;
+    font-weight: 600;
+    padding: 0 35px 0 5px;  
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color:#bca6d1;
+    line-height: 57px;
+}
+
+.recordarme{
+    font-size: .9em;
+    color: white;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recordarme label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.recordarme a{
+    color: white ;
+    text-decoration:none;
+}
+
+.strong{
+    color: white;
+}
+
+.recordarme a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #482568;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #3c1d5b;
+}
+
+.ingresar-registrarse{
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.ingresar-registrarse a{
+    color:#bca6d1 ;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.ingresar-registrarse p {
+    color: white;
+    text-decoration: none;
+}
+
+.ingresar-registrarse p a:hover{
+    text-decoration: underline;
+}
+
+
+.container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.titulito{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.container{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+    width: 1000px;
+margin: 400px 45px 0px auto;}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+nav ul:first-child {
+    justify-content: flex-start;
+}
+
+nav ul:last-child {
+    justify-content: flex-end;
+}
+
+nav ul i {
+    font-size: 24px;
+    color: #fffefe;
+}
+
+ @font-face {
+    font-family: "LEMONMILK";
+    src: url("../sources/fonts//LEMONMILK-Medium.otf");
+    src: url("../sources/fonts/LEMONMIL-Regular.otf")
+}
+
+.mission0 h1{
+    margin-top: 350px;
+    font-size: 40px;
+    font-family: "LEMONMILK";
+}
+.mission0 h2{
+    font-size: 20px;
+}
+
+.mission1 h1{
+    margin-top: 350px;
+    font-family: "LEMONMILK";
+    font-size: 40px;
+}
+.mission1 h2{
+    font-size: 20px;
+}
+
+.mission2 h1{
+    margin-top: 350px;
+    font-family: "LEMONMILK";
+    font-size: 40px;
+}
+.mission2 h2{
+    font-size: 20px;
+}
+
+
+.missions {
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.misiones {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 180px;
+}
+
+.mission0 {
+    background-image: url(../sources/images/card0.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: 810px;
+
+}
+.mission1 {
+    background-image: url(../sources/images/card1.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: 810px;
+}
+.mission2 {
+    background-image: url(../sources/images/card2.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: 810px;
+}
+
+.mission0 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.mission0 button {
+    font-family: 'LEMONMILK';
+    background-color: #FF0A6C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 130px;
+}
+.mission1 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.mission1 button {
+    font-family: 'LEMONMILK';
+    background-color: #FF0A6C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 130px;
+}
+
+.mission2 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.mission2 button {
+    font-family: 'LEMONMILK';
+    background-color: #FF0A6C;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 130px;
+
+}
+
+.mission0:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.mission1:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.mission2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+
+.imagenes {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+margin-top: 15px;
+}
+
+.logof {
+    height: 50px; 
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff; 
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.suggestions {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.suggestions:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+
+/* Estilo de la hamburguesa */
+.hamburger {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* Mostrar menú hamburguesa solo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+
+
+footer {
+    background-color: #2B2159; 
+    padding: 15px;
+    text-align: center;
+}
+.imagenes {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+margin-top: 15px;
+}
+.footer-content {
+    
+    
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff; 
+}
+
+.logof {
+    height: 50px; 
+    cursor: pointer;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff; 
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.suggestions {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.suggestions:hover {
+    text-decoration: underline;
+}
+
+
+
+.respmenu a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px; 
+    max-width: 200px;
+    font-variant: small-caps;
+    text-shadow: 1px 1px black;
+  }
+
+  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .respmenu .fa-bars, .respmenu .fa-times {
+    font-size: 30px;
+    pointer-events: none;
+  }
+  
+  .respmenu input[type="checkbox"] {
+    opacity: 0;
+  }
+  
+  .respmenu {
+    color: white;
+    position: relative;
+    min-height: 30px;
+  }
+  
+  .respmenu nav {
+    display: none;
+  }
+  
+  .respmenu input:checked ~ nav {
+    display: block;
+  }
+  
+  .respmenu input:checked ~ .fa-bars {
+    display: none;
+  }
+  
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+  }
+
+
+
+
+

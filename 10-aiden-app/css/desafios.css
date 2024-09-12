@@ -1,107 +1,85 @@
 body {
+    background-image: url(../sources//images/fonddo.png);
+    background: size 100%;;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+
+}
+.logo {
+    position: absolute;
+    left: 49%;
+    margin-top: 4px;
+    height: 40px; 
+    z-index: 12;
+}
+
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
-    background: url('../sources/images/fondo-desafios_Mesa\ de\ trabajo\ 1.png') no-repeat center center fixed;
-    background-size: cover;
+    box-sizing: border-box;
+}
+
+header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    color: white;
-}
-
-.container {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 15px;
-    width: 80%;
-    max-width: 600px;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.subheading {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.start-button, .next-button {
-    background-color: #9400D3;
-    color: white;
-    font-size: 20px;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
+    background-color: transparent;
+    position: relative;
 }
 
-.start-button:hover, .next-button:hover {
-    background-color: #8B008B;
-}
-
-.question-container {
-    margin-top: 20px;
-}
-
-.hidden {
-    display: none;
-}
-
-.question-header {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.question {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.answers {
+nav {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.answer {
-    background-color: #2A2A2A;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
 }
 
-.answer:hover {
-    background-color: #444444;
+nav ul:first-child {
+    justify-content: flex-start;
 }
 
-.progress-container {
-    margin-top: 30px;
-    height: 10px;
-    background-color: #555;
-    border-radius: ​5px}
-
-.progress-bar {
-    width: 0%;
-    height: 100%;
-    background-color: #9400D3;
-    transition: width 0.5s;
+nav ul:last-child {
+    justify-content: flex-end;
 }
 
+nav ul i {
+    font-size: 24px;
+    color: #fffefe;
+}
 footer {
     background-color: #2B2159; 
     padding: 15px;
     text-align: center;
 }
+.imagenes {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+margin-top: 15px;
+}
 
 .footer-content {
-    
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
@@ -129,4 +107,3 @@ footer {
 .suggestions:hover {
     text-decoration: underline;
 }
-
