@@ -36,12 +36,10 @@ const email = document.querySelector('#correo')
 
 function registrarUser(e) {
     e.preventDefault();
-    let user = {
+    let user = { 
         userName: username.value.toLowerCase(),
         userPass: password.value.toLowerCase(),
         userEmail: email.value.toLowerCase(),
-        
-
     }
     localStorage.setItem('user', JSON.stringify(user))
     /* formulario.reset();  */
@@ -57,8 +55,6 @@ let User = JSON.parse( localStorage.getItem('user'))
 console.log(User.userName)
 console.log(User.userPass)
 
-console.log(Boolean(username.value === User.userName))
-console.log(Boolean(password.value === User.userPass))
 
     if(username.value === User.userName && password.value === User.userPass){
         console.log('felicidades puedes entrar ')
@@ -72,7 +68,7 @@ ingresar.addEventListener('submit',validarUsuario)
 
  
 
-
+//saludo
 loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -92,7 +88,7 @@ loginForm.addEventListener('submit', (e) => {
 
 
 btncerrars.addEventListener('click', () => {
-    localStorage.removeItem('usuario');
+    localStorage.removeItem('user');
     saludo.innerHTML = '';
     btncerrars.style.display = 'none';
 });

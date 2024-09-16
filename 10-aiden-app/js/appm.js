@@ -18,20 +18,3 @@ desafios.forEach(desafio => {
 
 
 
-
-
-
-
-
-let repaso = [
-    {
-        id: 1,
-        color: "azul",
-
-
-
-    }
-
-
-
-]
